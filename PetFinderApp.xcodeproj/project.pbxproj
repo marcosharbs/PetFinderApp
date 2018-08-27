@@ -12,6 +12,13 @@
 		35C020012134882B006F45E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35C01FFF2134882B006F45E5 /* Main.storyboard */; };
 		35C020032134882B006F45E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35C020022134882B006F45E5 /* Assets.xcassets */; };
 		35C020062134882B006F45E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35C020042134882B006F45E5 /* LaunchScreen.storyboard */; };
+		35C0200F2134885D006F45E5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C0200E2134885D006F45E5 /* Constants.swift */; };
+		35C0201121348E5C006F45E5 /* PetApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C0201021348E5C006F45E5 /* PetApi.swift */; };
+		35C0201321348ECC006F45E5 /* StringApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C0201221348ECC006F45E5 /* StringApi.swift */; };
+		35C02015213490AA006F45E5 /* PhotoApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C02014213490AA006F45E5 /* PhotoApi.swift */; };
+		35C0201721349131006F45E5 /* PhotosApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C0201621349131006F45E5 /* PhotosApi.swift */; };
+		35C0201921349168006F45E5 /* MediaApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C0201821349168006F45E5 /* MediaApi.swift */; };
+		35C0201B213492DA006F45E5 /* BreedsApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C0201A213492DA006F45E5 /* BreedsApi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		35C020022134882B006F45E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35C020052134882B006F45E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35C020072134882B006F45E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35C0200E2134885D006F45E5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		35C0201021348E5C006F45E5 /* PetApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetApi.swift; sourceTree = "<group>"; };
+		35C0201221348ECC006F45E5 /* StringApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringApi.swift; sourceTree = "<group>"; };
+		35C02014213490AA006F45E5 /* PhotoApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoApi.swift; sourceTree = "<group>"; };
+		35C0201621349131006F45E5 /* PhotosApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosApi.swift; sourceTree = "<group>"; };
+		35C0201821349168006F45E5 /* MediaApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaApi.swift; sourceTree = "<group>"; };
+		35C0201A213492DA006F45E5 /* BreedsApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedsApi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 		35C01FFA2134882A006F45E5 /* PetFinderApp */ = {
 			isa = PBXGroup;
 			children = (
+				35C0200D21348843006F45E5 /* Client */,
 				35C01FFB2134882B006F45E5 /* AppDelegate.swift */,
 				35C01FFD2134882B006F45E5 /* ViewController.swift */,
 				35C01FFF2134882B006F45E5 /* Main.storyboard */,
@@ -62,6 +77,28 @@
 				35C020072134882B006F45E5 /* Info.plist */,
 			);
 			path = PetFinderApp;
+			sourceTree = "<group>";
+		};
+		35C0200D21348843006F45E5 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				35C0201C21349395006F45E5 /* Model */,
+				35C0200E2134885D006F45E5 /* Constants.swift */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		35C0201C21349395006F45E5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				35C0201021348E5C006F45E5 /* PetApi.swift */,
+				35C0201221348ECC006F45E5 /* StringApi.swift */,
+				35C02014213490AA006F45E5 /* PhotoApi.swift */,
+				35C0201621349131006F45E5 /* PhotosApi.swift */,
+				35C0201821349168006F45E5 /* MediaApi.swift */,
+				35C0201A213492DA006F45E5 /* BreedsApi.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +173,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35C0201721349131006F45E5 /* PhotosApi.swift in Sources */,
 				35C01FFE2134882B006F45E5 /* ViewController.swift in Sources */,
+				35C0201321348ECC006F45E5 /* StringApi.swift in Sources */,
+				35C0201921349168006F45E5 /* MediaApi.swift in Sources */,
+				35C0201121348E5C006F45E5 /* PetApi.swift in Sources */,
+				35C0201B213492DA006F45E5 /* BreedsApi.swift in Sources */,
+				35C02015213490AA006F45E5 /* PhotoApi.swift in Sources */,
 				35C01FFC2134882B006F45E5 /* AppDelegate.swift in Sources */,
+				35C0200F2134885D006F45E5 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
