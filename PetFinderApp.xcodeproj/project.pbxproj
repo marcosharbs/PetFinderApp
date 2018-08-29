@@ -19,6 +19,7 @@
 		35C0201721349131006F45E5 /* PhotosApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C0201621349131006F45E5 /* PhotosApi.swift */; };
 		35C0201921349168006F45E5 /* MediaApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C0201821349168006F45E5 /* MediaApi.swift */; };
 		35C0201B213492DA006F45E5 /* BreedsApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C0201A213492DA006F45E5 /* BreedsApi.swift */; };
+		35C0201E213494F5006F45E5 /* PetClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C0201D213494F5006F45E5 /* PetClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		35C0201621349131006F45E5 /* PhotosApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosApi.swift; sourceTree = "<group>"; };
 		35C0201821349168006F45E5 /* MediaApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaApi.swift; sourceTree = "<group>"; };
 		35C0201A213492DA006F45E5 /* BreedsApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedsApi.swift; sourceTree = "<group>"; };
+		35C0201D213494F5006F45E5 /* PetClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 			children = (
 				35C0201C21349395006F45E5 /* Model */,
 				35C0200E2134885D006F45E5 /* Constants.swift */,
+				35C0201D213494F5006F45E5 /* PetClient.swift */,
 			);
 			path = Client;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 			files = (
 				35C0201721349131006F45E5 /* PhotosApi.swift in Sources */,
 				35C01FFE2134882B006F45E5 /* ViewController.swift in Sources */,
+				35C0201E213494F5006F45E5 /* PetClient.swift in Sources */,
 				35C0201321348ECC006F45E5 /* StringApi.swift in Sources */,
 				35C0201921349168006F45E5 /* MediaApi.swift in Sources */,
 				35C0201121348E5C006F45E5 /* PetApi.swift in Sources */,

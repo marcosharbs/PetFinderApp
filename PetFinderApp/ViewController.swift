@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        PetClient.instance.getPets(location: "Blumenau, SC")
     }
 
     override func didReceiveMemoryWarning() {

@@ -10,14 +10,15 @@ struct Constants {
     
     struct PetFinderApi {
         
-        static let API_HOST = "http://api.petfinder.com"
+        static let API_SCHEME = "https"
+        static let API_HOST = "api.petfinder.com"
         static let API_KEY = "a1bee8e17cd04315301029a23a64f8f6"
         static let OUTPUT_FORMAT = "json"
         
         struct Methods {
-            static let PET_FIND = "pet.find"
-            static let SHELTER_GET = "shelter.get"
-            static let PET_GET = "pet.get"
+            static let PET_FIND = "/pet.find"
+            static let SHELTER_GET = "/shelter.get"
+            static let PET_GET = "/pet.get"
         }
         
         struct Params {
