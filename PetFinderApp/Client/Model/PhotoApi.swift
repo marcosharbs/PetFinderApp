@@ -8,9 +8,9 @@
 
 struct PhotoApi : Codable {
     
-    let id: String
-    let size: String
-    let url: String
+    let id: String?
+    let size: String?
+    let url: String?
     
     enum CodingKeys : String, CodingKey {
         case id = "@id"

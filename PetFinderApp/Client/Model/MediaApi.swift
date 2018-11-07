@@ -8,6 +8,6 @@
 
 struct MediaApi : Codable {
     
-    let photos: PhotosApi
+    let photos: PhotosApi?
     
 }

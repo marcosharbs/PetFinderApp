@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35300275219398DC00DFF66F /* ShelterApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35300274219398DC00DFF66F /* ShelterApi.swift */; };
+		35582FEF219251760098AC60 /* PetsApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35582FEE219251760098AC60 /* PetsApi.swift */; };
+		35582FF121925C260098AC60 /* BreedTypeApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35582FF021925C260098AC60 /* BreedTypeApi.swift */; };
 		35C01FFC2134882B006F45E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C01FFB2134882B006F45E5 /* AppDelegate.swift */; };
 		35C01FFE2134882B006F45E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C01FFD2134882B006F45E5 /* ViewController.swift */; };
 		35C020012134882B006F45E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35C01FFF2134882B006F45E5 /* Main.storyboard */; };
@@ -23,6 +26,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		35300274219398DC00DFF66F /* ShelterApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelterApi.swift; sourceTree = "<group>"; };
+		35582FEE219251760098AC60 /* PetsApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsApi.swift; sourceTree = "<group>"; };
+		35582FF021925C260098AC60 /* BreedTypeApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedTypeApi.swift; sourceTree = "<group>"; };
 		35C01FF82134882A006F45E5 /* PetFinderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetFinderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35C01FFB2134882B006F45E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		35C01FFD2134882B006F45E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +106,9 @@
 				35C0201621349131006F45E5 /* PhotosApi.swift */,
 				35C0201821349168006F45E5 /* MediaApi.swift */,
 				35C0201A213492DA006F45E5 /* BreedsApi.swift */,
+				35582FEE219251760098AC60 /* PetsApi.swift */,
+				35582FF021925C260098AC60 /* BreedTypeApi.swift */,
+				35300274219398DC00DFF66F /* ShelterApi.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -185,7 +194,10 @@
 				35C0201B213492DA006F45E5 /* BreedsApi.swift in Sources */,
 				35C02015213490AA006F45E5 /* PhotoApi.swift in Sources */,
 				35C01FFC2134882B006F45E5 /* AppDelegate.swift in Sources */,
+				35300275219398DC00DFF66F /* ShelterApi.swift in Sources */,
+				35582FEF219251760098AC60 /* PetsApi.swift in Sources */,
 				35C0200F2134885D006F45E5 /* Constants.swift in Sources */,
+				35582FF121925C260098AC60 /* BreedTypeApi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

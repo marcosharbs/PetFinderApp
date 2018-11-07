@@ -36,6 +36,9 @@ struct Constants {
             static let CODE = "code"
             static let PETS = "pets"
             static let PET = "pet"
+            static let SHELTER = "shelter"
+            static let CODE_STATUS_OK = "100"
+            static let TEXT = "$t"
         }
         
     }

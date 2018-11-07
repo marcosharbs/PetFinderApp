@@ -8,6 +8,6 @@
 
 struct BreedsApi : Codable {
     
-    let breed: StringApi
+    let breed: BreedTypeApi?
     
 }

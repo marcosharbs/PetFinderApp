@@ -8,16 +8,16 @@
 
 struct PetApi : Codable {
     
-    let id: StringApi
-    let age: StringApi
-    let size: StringApi
-    let shelterId: StringApi
-    let name: StringApi
-    let sex: StringApi
-    let description: StringApi
-    let mix: StringApi
-    let animal: StringApi
-    let media: MediaApi
-    let breeds: BreedsApi
+    let id: StringApi?
+    let age: StringApi?
+    let size: StringApi?
+    let shelterId: StringApi?
+    let name: StringApi?
+    let sex: StringApi?
+    let description: StringApi?
+    let mix: StringApi?
+    let animal: StringApi?
+    let media: MediaApi?
+    let breeds: BreedsApi?
     
 }
