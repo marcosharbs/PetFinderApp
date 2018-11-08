@@ -15,30 +15,20 @@ class PetClient {
     let session = URLSession.shared
     
     public func getPets(location: String, completionHandler: @escaping (_ pets: PetsApi?, _ error: Error?) -> Void) {
-        let request = getRequest(method: Constants.PetFinderApi.Methods.PET_FIND, parameters: [
-                Constants.PetFinderApi.Params.LOCATION: location as AnyObject
-            ])
-        
-        self.sendRequest(request, PetsApi.self, Constants.PetFinderApi.Response.PETS, completionHandler)
+        self.sendRequest(Constants.PetFinderApi.Methods.PET_FIND, [Constants.PetFinderApi.Params.LOCATION: location as AnyObject], PetsApi.self, Constants.PetFinderApi.Response.PETS, completionHandler)
     }
     
     public func getPet(id: String, completionHandler: @escaping (_ pets: PetApi?, _ error: Error?) -> Void) {
-        let request = getRequest(method: Constants.PetFinderApi.Methods.PET_GET, parameters: [
-            Constants.PetFinderApi.Params.ID: id as AnyObject
-            ])
-        
-        self.sendRequest(request, PetApi.self, Constants.PetFinderApi.Response.PET, completionHandler)
+        self.sendRequest(Constants.PetFinderApi.Methods.PET_GET, [Constants.PetFinderApi.Params.ID: id as AnyObject], PetApi.self, Constants.PetFinderApi.Response.PET, completionHandler)
     }
     
     public func getShelter(id: String, completionHandler: @escaping (_ pets: ShelterApi?, _ error: Error?) -> Void) {
-        let request = getRequest(method: Constants.PetFinderApi.Methods.SHELTER_GET, parameters: [
-            Constants.PetFinderApi.Params.ID: id as AnyObject
-            ])
-        
-        self.sendRequest(request, ShelterApi.self, Constants.PetFinderApi.Response.SHELTER, completionHandler)
+        self.sendRequest(Constants.PetFinderApi.Methods.SHELTER_GET, [Constants.PetFinderApi.Params.ID: id as AnyObject], ShelterApi.self, Constants.PetFinderApi.Response.SHELTER, completionHandler)
     }
     
-    private func sendRequest<T>(_ request: NSMutableURLRequest, _ type: T.Type, _ responseKey: String, _ completionHandler: @escaping (_ data: T?, _ error: Error?) -> Void) -> Void where T: Decodable {
+    private func sendRequest<T>(_ method: String, _ parameters: [String:AnyObject], _ type: T.Type, _ responseKey: String, _ completionHandler: @escaping (_ data: T?, _ error: Error?) -> Void) -> Void where T: Decodable {
+        
+        let request = getRequest(method: method, parameters: parameters)
         
         let task = session.dataTask(with: request as URLRequest) { data, response, error in
             
