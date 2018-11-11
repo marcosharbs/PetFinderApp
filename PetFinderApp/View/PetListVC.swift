@@ -47,7 +47,9 @@ class PetListVC: UITableViewController {
             let photos = pet!.photos?.allObjects as! [Photo]
             
             if(photos.count > 0) {
+                UIApplication.shared.isNetworkActivityIndicatorVisible = true
                 PetFinderInteractor.instance.getPhotoPicture(photo: photos[0]) {picture, error in
+                    UIApplication.shared.isNetworkActivityIndicatorVisible = false
                     cell.imageView?.image = UIImage(data: picture!)
                 }
             }

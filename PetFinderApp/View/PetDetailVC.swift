@@ -39,7 +39,9 @@ class PetDetailVC: UIViewController {
                 index = index + 1
             }
             
+            UIApplication.shared.isNetworkActivityIndicatorVisible = true
             PetFinderInteractor.instance.getPhotoPicture(photo: photo!) {picture, error in
+                UIApplication.shared.isNetworkActivityIndicatorVisible = false
                 self.petImageView.image = UIImage(data: picture!)
             }
         }
