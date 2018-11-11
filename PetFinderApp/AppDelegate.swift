@@ -13,5 +13,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    let dataController = DataController(modelName: "PetFinder")
+    
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey : Any]? = nil) -> Bool {
+        self.dataController.load()
+        PetFinderInteractor.instance.dataController = self.dataController
+        return true
+    }
+    
 }
 

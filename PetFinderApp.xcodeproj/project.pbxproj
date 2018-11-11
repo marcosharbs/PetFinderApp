@@ -7,11 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35202F8A21976D0400EF0FF7 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35202F8921976D0400EF0FF7 /* DataController.swift */; };
+		35202F8D21976EAA00EF0FF7 /* PetFinderInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35202F8C21976EAA00EF0FF7 /* PetFinderInteractor.swift */; };
+		35202F902197732800EF0FF7 /* PetFinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 35202F8E2197732800EF0FF7 /* PetFinder.xcdatamodeld */; };
+		35202F942198762B00EF0FF7 /* CustomPinAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35202F932198762B00EF0FF7 /* CustomPinAnnotation.swift */; };
+		35202F9621987D8F00EF0FF7 /* PetListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35202F9521987D8F00EF0FF7 /* PetListVC.swift */; };
+		35202F9821987ED700EF0FF7 /* ErrorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35202F9721987ED700EF0FF7 /* ErrorHelper.swift */; };
+		35202F9A2198942500EF0FF7 /* PetDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35202F992198942500EF0FF7 /* PetDetailVC.swift */; };
+		35202F9C2198B6E100EF0FF7 /* MyPetsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35202F9B2198B6E100EF0FF7 /* MyPetsVC.swift */; };
+		35202F9E2198BD9800EF0FF7 /* ShelterInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35202F9D2198BD9800EF0FF7 /* ShelterInfoVC.swift */; };
 		35300275219398DC00DFF66F /* ShelterApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35300274219398DC00DFF66F /* ShelterApi.swift */; };
 		35582FEF219251760098AC60 /* PetsApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35582FEE219251760098AC60 /* PetsApi.swift */; };
 		35582FF121925C260098AC60 /* BreedTypeApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35582FF021925C260098AC60 /* BreedTypeApi.swift */; };
 		35C01FFC2134882B006F45E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C01FFB2134882B006F45E5 /* AppDelegate.swift */; };
-		35C01FFE2134882B006F45E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C01FFD2134882B006F45E5 /* ViewController.swift */; };
+		35C01FFE2134882B006F45E5 /* PetMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C01FFD2134882B006F45E5 /* PetMapVC.swift */; };
 		35C020012134882B006F45E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35C01FFF2134882B006F45E5 /* Main.storyboard */; };
 		35C020032134882B006F45E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35C020022134882B006F45E5 /* Assets.xcassets */; };
 		35C020062134882B006F45E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35C020042134882B006F45E5 /* LaunchScreen.storyboard */; };
@@ -26,12 +35,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		35202F8921976D0400EF0FF7 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		35202F8C21976EAA00EF0FF7 /* PetFinderInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetFinderInteractor.swift; sourceTree = "<group>"; };
+		35202F8F2197732800EF0FF7 /* PetFinder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PetFinder.xcdatamodel; sourceTree = "<group>"; };
+		35202F932198762B00EF0FF7 /* CustomPinAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPinAnnotation.swift; sourceTree = "<group>"; };
+		35202F9521987D8F00EF0FF7 /* PetListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetListVC.swift; sourceTree = "<group>"; };
+		35202F9721987ED700EF0FF7 /* ErrorHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHelper.swift; sourceTree = "<group>"; };
+		35202F992198942500EF0FF7 /* PetDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetDetailVC.swift; sourceTree = "<group>"; };
+		35202F9B2198B6E100EF0FF7 /* MyPetsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPetsVC.swift; sourceTree = "<group>"; };
+		35202F9D2198BD9800EF0FF7 /* ShelterInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelterInfoVC.swift; sourceTree = "<group>"; };
 		35300274219398DC00DFF66F /* ShelterApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelterApi.swift; sourceTree = "<group>"; };
 		35582FEE219251760098AC60 /* PetsApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsApi.swift; sourceTree = "<group>"; };
 		35582FF021925C260098AC60 /* BreedTypeApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedTypeApi.swift; sourceTree = "<group>"; };
 		35C01FF82134882A006F45E5 /* PetFinderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetFinderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35C01FFB2134882B006F45E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		35C01FFD2134882B006F45E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		35C01FFD2134882B006F45E5 /* PetMapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetMapVC.swift; sourceTree = "<group>"; };
 		35C020002134882B006F45E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		35C020022134882B006F45E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35C020052134882B006F45E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,6 +75,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35202F8821976CD700EF0FF7 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				35202F8921976D0400EF0FF7 /* DataController.swift */,
+				35202F8E2197732800EF0FF7 /* PetFinder.xcdatamodeld */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		35202F8B21976E8E00EF0FF7 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				35202F8C21976EAA00EF0FF7 /* PetFinderInteractor.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		35202F912197733F00EF0FF7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				35C01FFD2134882B006F45E5 /* PetMapVC.swift */,
+				35202F9521987D8F00EF0FF7 /* PetListVC.swift */,
+				35202F992198942500EF0FF7 /* PetDetailVC.swift */,
+				35202F9B2198B6E100EF0FF7 /* MyPetsVC.swift */,
+				35202F9D2198BD9800EF0FF7 /* ShelterInfoVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		35202F922198760C00EF0FF7 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				35202F932198762B00EF0FF7 /* CustomPinAnnotation.swift */,
+				35202F9721987ED700EF0FF7 /* ErrorHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		35C01FEF2134882A006F45E5 = {
 			isa = PBXGroup;
 			children = (
@@ -76,9 +132,12 @@
 		35C01FFA2134882A006F45E5 /* PetFinderApp */ = {
 			isa = PBXGroup;
 			children = (
+				35202F922198760C00EF0FF7 /* Helper */,
+				35202F912197733F00EF0FF7 /* View */,
+				35202F8B21976E8E00EF0FF7 /* Domain */,
+				35202F8821976CD700EF0FF7 /* Data */,
 				35C0200D21348843006F45E5 /* Client */,
 				35C01FFB2134882B006F45E5 /* AppDelegate.swift */,
-				35C01FFD2134882B006F45E5 /* ViewController.swift */,
 				35C01FFF2134882B006F45E5 /* Main.storyboard */,
 				35C020022134882B006F45E5 /* Assets.xcassets */,
 				35C020042134882B006F45E5 /* LaunchScreen.storyboard */,
@@ -186,18 +245,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				35C0201721349131006F45E5 /* PhotosApi.swift in Sources */,
-				35C01FFE2134882B006F45E5 /* ViewController.swift in Sources */,
+				35202F9C2198B6E100EF0FF7 /* MyPetsVC.swift in Sources */,
+				35C01FFE2134882B006F45E5 /* PetMapVC.swift in Sources */,
 				35C0201E213494F5006F45E5 /* PetClient.swift in Sources */,
 				35C0201321348ECC006F45E5 /* StringApi.swift in Sources */,
 				35C0201921349168006F45E5 /* MediaApi.swift in Sources */,
 				35C0201121348E5C006F45E5 /* PetApi.swift in Sources */,
 				35C0201B213492DA006F45E5 /* BreedsApi.swift in Sources */,
+				35202F8A21976D0400EF0FF7 /* DataController.swift in Sources */,
+				35202F9821987ED700EF0FF7 /* ErrorHelper.swift in Sources */,
 				35C02015213490AA006F45E5 /* PhotoApi.swift in Sources */,
 				35C01FFC2134882B006F45E5 /* AppDelegate.swift in Sources */,
+				35202F942198762B00EF0FF7 /* CustomPinAnnotation.swift in Sources */,
+				35202F8D21976EAA00EF0FF7 /* PetFinderInteractor.swift in Sources */,
 				35300275219398DC00DFF66F /* ShelterApi.swift in Sources */,
 				35582FEF219251760098AC60 /* PetsApi.swift in Sources */,
 				35C0200F2134885D006F45E5 /* Constants.swift in Sources */,
 				35582FF121925C260098AC60 /* BreedTypeApi.swift in Sources */,
+				35202F9E2198BD9800EF0FF7 /* ShelterInfoVC.swift in Sources */,
+				35202F9A2198942500EF0FF7 /* PetDetailVC.swift in Sources */,
+				35202F9621987D8F00EF0FF7 /* PetListVC.swift in Sources */,
+				35202F902197732800EF0FF7 /* PetFinder.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +450,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		35202F8E2197732800EF0FF7 /* PetFinder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				35202F8F2197732800EF0FF7 /* PetFinder.xcdatamodel */,
+			);
+			currentVersion = 35202F8F2197732800EF0FF7 /* PetFinder.xcdatamodel */;
+			path = PetFinder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 35C01FF02134882A006F45E5 /* Project object */;
 }
