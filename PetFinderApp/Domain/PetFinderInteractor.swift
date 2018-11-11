@@ -114,6 +114,11 @@ class PetFinderInteractor {
                     return
                 }
                 
+                guard placemarks![0].postalCode != nil else {
+                    completionHandler(nil, NSError(domain: "/getPets", code: 0, userInfo: [NSLocalizedDescriptionKey: "Região não localizada!"]))
+                    return
+                }
+                
                 PetClient.instance.getPets(location: placemarks![0].postalCode!) { petsApi, error in
                     guard error == nil else {
                         completionHandler(nil, error)
